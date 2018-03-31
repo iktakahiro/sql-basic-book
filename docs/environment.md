@@ -15,6 +15,8 @@ cd ./docker
 docker-compose up
 ```
 
+`docker-compose` コマンドは、`docker-compose.yml` のファイルが配置されたディレクトリと同階層で実行してください。
+
 以下の内容で PostgreSQL 環境が構築されます。
 
 項目 | 内容
@@ -45,11 +47,26 @@ psql -U user1 -h localhost -p 54321 -d learning_sql
 
 `Password for user user1:` と表示されたらパスワード `password` を入力します。
 
-以下のように PostgreSQL のコンソールにログインできれば成功です。
+以下のように PostgreSQL のコンソールが表示されればログインは成功です。
 
 ```bash
 learning_sql=#
 ```
+
+SELECT文を実行しテーブルの状態を確認します。
+
+```sql
+learning_sql=# SELECT * FROM b1;
+ id |               title                | published_at
+----+------------------------------------+--------------
+  1 | Electronではじめるアプリ開発       | 2017-03-28
+  2 | かんたん Perl                      | 2016-01-16
+  3 | 3ステップでしっかり学ぶPHP入門     | 2017-07-21
+  4 | Pythonクローリング＆スクレイピング | 2016-12-16
+  5 | 改訂2版 パーフェクトRuby           | 2017-05-17
+```
+
+5行のデータが取得できます。これで PostgreSQL を利用する準備が整いました。
 
 ## Docker コンテナの操作
 
@@ -66,7 +83,7 @@ docker-compose up -d
 
 ## Docker コンテナの再作成
 
-データベースを初期状態に戻したい場合、コンテナの再作成を行います。PostgreSQL のデータは復旧できないためデータを破棄しても:よい場合にのみ実行してください。
+データベースを初期状態に戻したい場合、コンテナの再作成を行います。PostgreSQL のデータは復旧できないためデータを破棄してもよい場合にのみ実行してください。
 
 ```bash
 # コンテナとボリュームの削除
