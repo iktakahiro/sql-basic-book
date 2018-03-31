@@ -6,7 +6,7 @@
 
 TBD
 
-## コンテナの起動
+## Docker コンテナの起動
 
 `docker-compose` コマンドを利用してコンテナを起動します。
 
@@ -51,7 +51,7 @@ psql -U user1 -h localhost -p 54321 -d learning_sql
 learning_sql=#
 ```
 
-## コンテナの操作
+## Docker コンテナの操作
 
 ```bash
 # コンテナの停止
@@ -64,16 +64,13 @@ docker-compose up
 docker-compose up -d
 ```
 
-## コンテナの再作成
+## Docker コンテナの再作成
 
-データベースを初期状態に戻したい場合、コンテナの再作成を行います。PostgreSQL のデータは復旧できないためデータを破棄しても:よい場合に実行してください。
+データベースを初期状態に戻したい場合、コンテナの再作成を行います。PostgreSQL のデータは復旧できないためデータを破棄しても:よい場合にのみ実行してください。
 
 ```bash
-# コンテナを停止し、ボリュームを削除する
+# コンテナとボリュームの削除
 docker-compose down -v
-
-# コンテナとボリュームを削除する
-docker-compose rm
 
 # コンテナの作成と起動
 docker-compose up
