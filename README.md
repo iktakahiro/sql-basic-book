@@ -10,7 +10,7 @@
 
 ## サンプルコード
 
-本書で解説しているSQLを章ごとにまとめて公開しています。
+本書で解説している SQL を章ごとにまとめて公開しています。
 
 - [第3章](./sample_sql/chapter03.sql) TBD
 - [第4章](./sample_sql/chapter04.sql)
@@ -24,13 +24,18 @@
 
 ## 環境構築Tips
 
-本書では VirtualBox を利用した PostgreSQL 環境の構築方法を解説しています。ここでは Docker を利用した環境構築方法を紹介しています。詳細は以下のドキュメントを参照してください。
+本書では VirtualBox を利用した PostgreSQL 環境の構築方法を解説しています。以下のドキュメントでは、Docker を利用した環境構築方法を紹介しています。
 
 - [PostgreSQL 環境構築について](./docs/environment.md)
 
 ## Awesome PostgreSQL GUI Tools
 
 TBD
+
+- [DataGrip: Cross\-Platform IDE for Databases & SQL by JetBrains](https://www.jetbrains.com/datagrip/)
+- [sosedoff/pgweb: Cross\-platform client for PostgreSQL databases](https://github.com/sosedoff/pgweb)
+- [Sqlectron \- One single DB client for any relational DB](https://sqlectron.github.io/)
+- https://github.com/dhamaniasad/awesome-postgres#gui
 
 ## お問い合わせについて
 
