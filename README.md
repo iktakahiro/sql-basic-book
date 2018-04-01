@@ -14,9 +14,9 @@
 
 ## 環境構築Tips
 
-TBD
+本書では VirtualBox を利用した PostgreSQL 環境の構築方法を解説しています。ここでは Docker を利用した環境構築方法を紹介しています。詳細は以下のドキュメントを参照してください。
 
-- [Docker を使用したPostgreSQL環境の準備](./docs/environment.md)
+- [PostgreSQL 環境構築について](./docs/environment.md)
 
 ## GUI クライアント
 
