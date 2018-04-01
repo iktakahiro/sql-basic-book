@@ -46,3 +46,5 @@ PostgreSQL や SQL、そのたコンピュータの操作全般に関する一�
 - https://stackoverflow.com/
 - https://ja.stackoverflow.com/
 - https://teratail.com/
+
+著者 Twitter: [@iktakahiro](https://twitter.com/iktakahiro)
