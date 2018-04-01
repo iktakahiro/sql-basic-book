@@ -256,7 +256,6 @@ SELECT id,
   FROM type_others
  WHERE is_available = FALSE;
 
-
 /* リスト5-66 配列型の列へ登録 */
 INSERT INTO type_others (tag)
 VALUES ('{"Python", "初心者向け", "サンプルコードあり"}'),

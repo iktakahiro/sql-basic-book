@@ -10,6 +10,7 @@ VALUES ('1', 'Pythonエンジニア ファーストブック', '2017-09-09');
 /* リスト4-5 INSERT文を実行し、結果を確認 */
 INSERT INTO b2 (id, title, published_at)
 VALUES ('1', 'Pythonエンジニア ファーストブック', '2017-09-09');
+
 -- INSERT文 実行後の結果を確認
 SELECT *
   FROM b2;
@@ -17,6 +18,7 @@ SELECT *
 /* リスト4-7 列の指定を省略したINSERT文 */
 INSERT INTO b2
 VALUES ('2', 'Chainerで学ぶディープラーニング入門', '2017-09-14');
+
 -- INSERT文 実行後の結果を確認
 SELECT *
   FROM b2
@@ -25,6 +27,7 @@ SELECT *
 /* リスト4-9 列の指定順序を入れ替えたINSERT文 */
 INSERT INTO b2 (published_at, id, title)
 VALUES ('2017-09-14', '3', 'Angular アプリケーションプログラミング');
+
 -- INSERT文 実行後の結果を確認
 SELECT *
   FROM b2
@@ -33,6 +36,7 @@ SELECT *
 /* リスト4-11 値の指定を省略したINSERT文 */
 INSERT INTO b2 (id)
 VALUES ('4');
+
 -- INSERT文 実行後の結果を確認
 SELECT *
   FROM b2
@@ -54,6 +58,7 @@ VALUES ('1');
 INSERT INTO b2(id, title, published_at)
 VALUES ('5', 'ビジュアル 高校数学大全' , '2017-09-26'),
        ('6', 'ねこ手帳 2018' , '2017-09-12');
+
 -- INSERT文 実行後の結果を確認
 SELECT *
   FROM b2

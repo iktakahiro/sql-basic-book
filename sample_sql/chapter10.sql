@@ -133,7 +133,8 @@ SELECT isbn,
        price,
        rank
   FROM (SELECT *,
-               RANK() OVER (PARTITION BY sub_genre_id ORDER BY price DESC) AS rank
+               RANK() OVER
+               (PARTITION BY sub_genre_id ORDER BY price DESC) AS rank
           FROM book) as t
  WHERE rank <= 3
  LIMIT 15;
@@ -221,7 +222,7 @@ VALUES (3, '既存行がなければ新規登録')
 /* リスト10-47 UPSERT実行後の結果を確認 */
 SELECT *
   FROM b2
-ORDER BY id ASC;
+ ORDER BY id ASC;
 
 /* リスト10-49 stockテーブルの初期状態を確認 */
 SELECT *
@@ -249,6 +250,7 @@ UPDATE stock
 SELECT isbn,
        quantity
   FROM stock;
+
 ROLLBACK; -- ロールバックしてトランザクションを終了
 
 /* リスト10-54 ロールバック後のpurchase_logテーブル */
