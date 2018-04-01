@@ -1,0 +1,17 @@
+version: "3"
+services:
+  database:
+    image: postgres:10.0-alpine
+    container_name: postgres-learning-sql
+    volumes:
+      - database:/var/lib/postgresql/data
+      - ../common/init:/docker-entrypoint-initdb.d
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=password
+    ports:
+        - 5432:5432
+
+volumes:
+    database:
+      external: false
