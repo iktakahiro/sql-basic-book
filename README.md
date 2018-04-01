@@ -10,7 +10,7 @@
 
 本書で解説しているSQLを章ごとにまとめています。
 
-- [第6章](./sample_code/chapter06.sql)
+- [第6章](./sample_sql/chapter06.sql)
 
 ## 環境構築Tips
 
@@ -18,7 +18,12 @@
 
 - [PostgreSQL 環境構築について](./docs/environment.md)
 
-## GUI クライアント
+## お問い合わせについて
 
-TBD
+本書で解説している内容についてご質問がある場合、この Repository の Issue を利用してお問い合わせください。必ずしも回答できるとは限らないことをあらかじめご承知おきください。
 
+PostgreSQL や SQL、そのたコンピュータの操作全般に関する一般的なご質問の場合、以下のサービスをご利用になることをお勧めします。
+
+- https://stackoverflow.com/
+- https://ja.stackoverflow.com/
+- https://teratail.com/
