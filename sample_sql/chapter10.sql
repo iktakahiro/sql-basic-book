@@ -37,7 +37,7 @@ SELECT '0' AS id,
 
 /* リスト10-11 UNION前のSELECT文にORDER BY句を指定（実行不可）(Error) */
 SELECT id,
- title
+       title
   FROM b1
  ORDER BY id -- ここではORDER BY句は指定できない
  UNION
