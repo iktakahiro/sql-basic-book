@@ -89,7 +89,6 @@ SELECT 'abc' + 1;
 SELECT 10 / 3,
        10 / 3.0;
 
-
 /* リスト6-34 関数の戻り値を関数の引数とする */
 SELECT POWER(ROUND(2.5), 3),
        TRUNC(POWER(ROUND(2.5), 3));
@@ -140,7 +139,6 @@ SELECT MAKE_DATE(2006, 01, 02) AS today,
 SELECT MAKE_DATE(2006,01,02) + MAKE_INTERVAL(months => 3) AS add_3months, -- 3カ月を加算
        MAKE_INTERVAL(hours => 24) - MAKE_INTERVAL(mins => 65) AS subtract_65mins, -- 24時から65分を減算
        MAKE_INTERVAL(hours => 1) / 4 AS quarter; -- 1時間を4で除算
-
 
 /* リスト6-54 日付データ同士の減算 */
 SELECT published_at, -- 確認のために元の値を取得
