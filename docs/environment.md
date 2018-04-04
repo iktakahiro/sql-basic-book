@@ -13,11 +13,9 @@
 
 - [Docker で PostgreSQL 環境を準備する](./docker-postgres.md)
 
-「2. Docker で PostgreSQL と GUI 環境を準備する」の場合、PostgreSQL サーバーに加え、pgweb という Webブラウザベースの PostgreSQL クライアントをあわせて構築します。
+「2. Docker で PostgreSQL と GUI 環境を準備する」の場合、PostgreSQL サーバーに加え、[pgweb](https://github.com/sosedoff/pgweb) という Webブラウザベースの PostgreSQL クライアントをあわせて構築します。
 
-- https://github.com/sosedoff/pgweb
-
-別途クライアントツールのインストールは必要ありません。Webブラウザ上で SQL を実行できる GUI (Graphical User Interface) 環境が手に入るため CUI (Character User Interface) が苦手なかたにお勧めします。
+別途クライアントツールのインストールは必要ありません。Webブラウザ上で SQL を実行できる GUI (Graphical User Interface) 環境が手に入るため、CUI (Character User Interface) が苦手なかたにお勧めします。
 
 詳細は以下のドキュメントを参照してください。
 
@@ -49,7 +47,7 @@ $ psql -V
 psql (PostgreSQL) 10.3
 ```
 
-`psql` コマンドを利用して PostgreSQL に接続するための例をいかに示します。
+`psql` コマンドを利用して PostgreSQL に接続するための例を以下に示します。
 
 ```bash
 psql -U user1 -h localhost -p 5432 -d learning_sql
