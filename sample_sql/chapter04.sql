@@ -1,7 +1,7 @@
 /* リスト4-1 データ登録前のb2テーブルを確認 */
 SELECT *
- FROM b2
-ORDER BY published_at DESC;
+  FROM b2
+ ORDER BY published_at DESC;
 
 /* リスト4-3 基本的なINSERT文 */
 INSERT INTO b2 (id, title, published_at)
