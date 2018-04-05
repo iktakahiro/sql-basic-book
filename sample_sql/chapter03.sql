@@ -11,7 +11,6 @@ SELECT id,
 SELECT id
   FROM b1;
 
-
 /* リスト3-4 title列を指定したSELECT句 */
 SELECT title
   FROM b1;
