@@ -18,7 +18,7 @@
 
 本書で解説している SQL を章ごとにまとめて公開しています。
 
-* [第3章](./sample_sql/chapter03.sql) TBD
+* [第3章](./sample_sql/chapter03.sql)
 * [第4章](./sample_sql/chapter04.sql)
 * [第5章](./sample_sql/chapter05.sql)
 * [第6章](./sample_sql/chapter06.sql)
