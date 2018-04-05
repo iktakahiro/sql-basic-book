@@ -6,7 +6,7 @@
 2. 初期データベースや初期データを作成する
 3. pgweb の動作するコンテナを起動する。
 
-Webブラウザ上で動作する PostgreSQL の GUI クライアント pgweb をあわせて導入します。
+Webブラウザ上で動作する PostgreSQL の GUI クライアント [pgweb](https://github.com/sosedoff/pgweb) をあわせて導入します。
 
 ![](./img/pgweb-home.png)
 
@@ -33,7 +33,7 @@ DB Host | localhost
 DB Port | 5432
 DB Name | learning_sql
 
-また、http://localhost:8081/ にアクセスすると、pgweb が利用できます。
+http://localhost:8081/ にアクセスすると、pgweb が利用できます。
 
 ### docker-compose の処理内容
 

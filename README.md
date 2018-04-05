@@ -10,6 +10,10 @@
 * [書籍マスタ(raw データ) book.csv](./data/book.csv)
 * [評価データ rating.csv](./data/rating.csv)
 
+書籍マスタは以下のスクリプトを用いて Webサイトをクローリングし、生成しました。
+
+* https://github.com/iktakahiro/gihyo-book-scraper
+
 ## サンプルコード
 
 本書で解説している SQL を章ごとにまとめて公開しています。
@@ -37,7 +41,11 @@ TBD
 * [DataGrip: Cross\-Platform IDE for Databases & SQL by JetBrains](https://www.jetbrains.com/datagrip/)
 * [sosedoff/pgweb: Cross\-platform client for PostgreSQL databases](https://github.com/sosedoff/pgweb)
 * [Sqlectron \- One single DB client for any relational DB](https://sqlectron.github.io/)
-* https://github.com/dhamaniasad/awesome-postgres#gui
+
+### 参考
+
+* [dhamaniasad/awesome\-postgres: A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome\-mysql - GitHub](https://github.com/dhamaniasad/awesome-postgres#gui)
+* [Community Guide to PostgreSQL GUI Tools \- PostgreSQL wiki](https://wiki.postgresql.org/wiki/Community_Guide_to_PostgreSQL_GUI_Tools)
 
 ## お問い合わせについて
 
