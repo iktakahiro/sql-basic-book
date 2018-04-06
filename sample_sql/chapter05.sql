@@ -320,7 +320,10 @@ SELECT b.isbn,
  ORDER BY b.isbn ASC
  LIMIT 5;
 
-/* リスト5-85 schema_lessテーブルにデータを挿入するSQL */
+/* リスト5-86 NULLの表示を初期設定に戻すメタコマンド */
+\pset null ''
+
+/* リスト5-87 schema_lessテーブルにデータを挿入するSQL */
 INSERT INTO schema_less (data)
 VALUES ('{"isbn": "9784774188195", "title": "Electronではじめるアプリ開発"}'),
        ('{"published_at": "2016-01-16", "price": 2980}');
