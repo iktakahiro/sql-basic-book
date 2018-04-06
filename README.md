@@ -1,6 +1,6 @@
 # 技術評論社『これからはじめる SQL 入門』追加情報 & サンプルコード & データ公開 Repository
 
-この Repository は、書籍『これからはじめる SQL 入門』(2018年, 技術評論社) に関連する追加情報やサンプルコードを公開する目的で公開されています。
+この Repository は、書籍『これからはじめる SQL 入門』(2018年, 技術評論社) に関連する追加情報やサンプルコードを公開する目的で運営されています。
 
 ## サンプルデータ
 
@@ -33,6 +33,8 @@
 本書では VirtualBox を利用した PostgreSQL 環境の構築方法を解説しています。以下のドキュメントでは、Docker を利用した環境構築方法を紹介しています。
 
 * [PostgreSQL 環境構築について](./docs/environment.md)
+    * [Docker で PostgreSQL 環境を準備する](./docs/docker-postgres.md)
+    * [Docker で PostgreSQL + pgweb 環境を準備する](./docs/docker-postgres-with-pgweb.md)
 
 ## Awesome PostgreSQL GUI Tools
 
