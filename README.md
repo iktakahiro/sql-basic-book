@@ -49,6 +49,12 @@ TBD
 * [dhamaniasad/awesome\-postgres: A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome\-mysql - GitHub](https://github.com/dhamaniasad/awesome-postgres#gui)
 * [Community Guide to PostgreSQL GUI Tools \- PostgreSQL wiki](https://wiki.postgresql.org/wiki/Community_Guide_to_PostgreSQL_GUI_Tools)
 
+## 正誤表
+
+本書における誤植ならびに訂正事項を以下に正誤表としてまとめております。ご確認ください。
+
+* [正誤表](./docs/errata.md)
+
 ## お問い合わせについて
 
 本書で解説している内容についてご質問がある場合、この Repository の Issue を利用してお問い合わせください。必ずしも回答できるとは限らないことをあらかじめご承知おきください。
