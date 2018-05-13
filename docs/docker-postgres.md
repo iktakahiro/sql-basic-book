@@ -45,7 +45,7 @@ docker-compose.yml で実行される処理は以下のとおりです。
 コンテナが起動したら、ターミナルから以下のコマンドを実行します。
 
 ```bash
-psql -U user1 -h localhost -p 54321 -d learning_sql
+psql -U user1 -h localhost -p 5432 -d learning_sql
 ```
 
 `Password for user user1:` と表示されたらパスワード `password` を入力します。
