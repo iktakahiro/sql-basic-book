@@ -1,6 +1,6 @@
 # 技術評論社『これからはじめる SQL 入門』追加情報 & サンプルコード & データ公開 Repository
 
-<img src="./docs/img/cover.jpg" width="640" />
+<img src="./docs/img/cover.jpg" width="320" />
 
 この Repository は、書籍『これからはじめる SQL 入門』(2018年, 技術評論社) に関連する追加情報やサンプルコードを公開する目的で運営されています。
 
